@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800");
+
+.heading {
+  color: color(dark);
+  @include font-weight(bold);
+  @include font-size(large);
+  margin-bottom: 1.5rem;
+}
+
+.paragraph {
+  color: color(grey);
+  @include font-weight(regular);
+  @include font-size(regular);
+}

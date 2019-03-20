@@ -1,0 +1,36 @@
+body {
+  color: color(grey);
+  font-family: "Open Sans", sans-serif;
+  @include font-size(regular);
+  @include font-weight(regular);
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.section {
+  padding: 3rem 0;
+
+  &__desc {
+    color: color(grey);
+    text-align: center;
+  }
+
+  &__header {
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+
+    &-tiles {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__title {
+    color: color(dark);
+    @include font-size(large);
+    @include font-weight(bold);
+    text-align: center;
+    text-transform: capitalize;
+  }
+}
